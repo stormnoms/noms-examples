@@ -1,0 +1,5 @@
+#!/bin/sh
+
+hr --ds test-data::hr add-person 7 "Aaron Boodman" "Chief Evangelism Officer"
+hr --ds test-data::hr add-person 13 "Samuel Boodman" "VP, Culture"
+hr --ds test-data::hr list-persons
